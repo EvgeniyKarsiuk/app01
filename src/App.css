@@ -3,29 +3,9 @@
   grid-template-areas:
     "header header"
     "nav content";
-    grid-template-rows: 60px 1fr ;
+    grid-template-rows: 70px 1fr ;
     grid-template-columns: 150px 1fr;
-    grid-gap: 20px 20px ;
+    grid-gap: 5px 5px ;
 }
-.header {
-  grid-area: header;
-  background-color: blue;
-}
-.nav {
-  grid-area: nav;
-  background-color: yellow;
 
-}
-.content {
-  grid-area: content;
-  background-color: orange;
 
-}
-.header img {
-  width: 70px;
-  height: 70px;
-}
-.content img{
-  height:150px;
-  width: 100%;
-}
