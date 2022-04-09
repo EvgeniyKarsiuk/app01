@@ -3,9 +3,13 @@
   grid-template-areas:
     "header header"
     "nav content";
-    grid-template-rows: 70px 1fr ;
-    grid-template-columns: 150px 1fr;
-    grid-gap: 5px 5px ;
+  grid-template-rows: 70px 1fr;
+  grid-template-columns: 150px 1fr;
+  grid-gap: 5px 5px;
 }
 
-
+.app-wrapper-content {
+  grid-area: content;
+  background-color: rgba(0, 255, 204, 0.845);
+  padding: 15px;
+}

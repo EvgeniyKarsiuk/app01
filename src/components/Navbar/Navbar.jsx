@@ -1,20 +1,27 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import s from "./Navbar.module.css";
+
 
 const Navbar = () => {
   return (
     <nav className={s.nav}>
       <div>
-        <a href="#">Profile</a>
+
+        <NavLink to="/profile" className={s.focus}>
+          Profile
+        </NavLink>
       </div>
       <div>
-        <a href="#">Messages</a>
+        <NavLink to="/dialogs" className={s.focus}>
+          Messages
+        </NavLink>
       </div>
       <div>
         <a href="#">News</a>
       </div>
       <div>
-        <a href="#">Musik</a>
+        <a href="#">Music</a>
       </div>
       <div>
         <a href="#">Settings</a>
@@ -23,4 +30,4 @@ const Navbar = () => {
   );
 };
 
- export default Navbar;
+export default Navbar;

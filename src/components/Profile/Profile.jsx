@@ -4,10 +4,10 @@ import s from "./Profile.module.css";
 
 const Profile = () => {
   return (
-    <div className={s.content}>
-      <img src="https://w-dog.ru/wallpapers/0/53/546328452145152/panorama-london.jpg" />
+    <div>
+      <img/>
       <div>
-        <img src="https://w-dog.ru/wallpapers/0/53/546328452145152/panorama-london.jpg" />
+        <img />
         ava + description
       </div>
       <MyPosts />
