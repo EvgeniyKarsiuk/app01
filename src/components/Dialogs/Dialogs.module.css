@@ -1,7 +1,11 @@
 .Dialogs{
     display: grid;
     grid-template-columns: 2fr 4fr;
-    color: white;
+    color: darkslategrey;
    
 }
 
+.DialogsItems a{
+    color: rgb(19, 29, 29);
+    text-decoration: none;
+}
